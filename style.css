@@ -119,9 +119,36 @@ nav ul {
   @media screen and (max-width:768px) {
     body{
         width: 100%;
+        font-size: small;
         padding: 0;
         margin: 0;
-        overflow: hidden;
+        padding: 0;
     }
+    header{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    #reading{
+      height: 300px;
+      margin-left: -50%;
+    }
+    footer{
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      padding: 20px;
+    }
+
+    .find_form button {
+      width: 60px;
+    }
+    .find_form input{
+      padding:10px;
+      width: 200px;
+
+
+
   }
 
+  }
