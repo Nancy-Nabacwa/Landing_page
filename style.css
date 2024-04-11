@@ -1,0 +1,127 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(211,218,235);
+  padding: 5%;
+  margin: 0 auto;
+
+}
+#whole_page{
+  background-color: white;
+  padding: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#LOGO{
+    display: flex;
+}
+#Imla{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#book_logo{
+    height: 25px;
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+   
+}
+nav ul li{
+list-style: none;
+
+}
+nav ul {
+    display: flex;
+    gap:20px;
+}
+
+.navs{
+    font-weight: lighter;
+    color: gray;
+}
+#Right_Uppermost{
+    display: flex;
+    gap: 10px;
+}
+#Start_button{
+   background-color:rgb(120,186,180);
+   color: white;
+   border: none;
+   border-radius: 30px;
+   width: 200px;
+   height: 35px;
+   margin-top: 10px;
+}
+#login{
+    font-size: 20px;
+}
+.find_form input{
+    padding:10px;
+    width: 500px;
+    height: 40px;
+    font-size: 17px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background: #f1f1f1;
+}
+.find_form {
+    position: relative;
+    display: inline-block;
+}
+.find_form button {
+    padding: 10px;
+    margin:10px;
+    width: 100px;
+    background:rgb(120,186,180);
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    position: absolute; 
+    top: 0;
+    right: 0;
+   
+  }
+  #Follow_us{
+    display: flex;
+    gap:20px;
+  }
+  .colored_icons{
+    height: 20px;
+    margin-top: 20px;
+  }
+  #second_section{
+    display: flex;
+  }
+  #reading{
+    border-radius: 50%;
+    height: 450px;
+    margin-left:-50px;
+  }
+  footer{
+     background-color: rgb(227,240,239);
+     height: 200px;
+     text-align: center;
+     padding-top: 50px;
+
+  }
+  .footer_images{
+    height: 30px;
+  }
+  #trusted{
+    color: rgb(74,114,111);
+  }
+
+  @media screen and (max-width:768px) {
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+  }
+
